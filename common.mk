@@ -325,6 +325,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     media_codecs_c2_dolby_audio.xml
 
+# microG
+-include vendor/microg/vendor_microg.mk
+
 # Minijail
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2.vendor \
