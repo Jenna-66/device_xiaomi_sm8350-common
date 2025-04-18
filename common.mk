@@ -136,7 +136,8 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     XiaomiDolby \
     XiaomiDolbyResCommon \
-    XiaomiParts
+    XiaomiParts \
+    XiaomiVoIPFix
 
 # Display
 PRODUCT_PACKAGES += \
