@@ -126,6 +126,10 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,libcameraservice,ext_lib,libcameraservice_extension.xiaomi_sm8350)
 
+# Compass
+PRODUCT_PACKAGES += \
+    MIUICompassGlobal
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
