@@ -5,15 +5,12 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    com.android.hotwordenrollment.common.util \
     Browser2 \
     Calendar \
     Etar \
     ExactCalculator \
     Gallery2 \
     Glimpse \
-    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
-    HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     Jelly \
     MatLog \
     Music \
