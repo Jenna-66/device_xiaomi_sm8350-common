@@ -288,4 +288,11 @@
         <item>10</item>
         <item>10</item>
     </integer-array>
+
+    <string-array name="config_rawContactsEligibleDefaultAccountTypes" translatable="false">
+        <!-- Add account types here, example: -->
+        <!-- <item>com.google</item> -->
+        <item>at.bitfire.davdroid.address_book</item>
+    </string-array>
+
 </resources>
