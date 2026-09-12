@@ -1,0 +1,15 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+android_app_import {
+    name: "MIUICompassGlobal",
+    owner: "xiaomi",
+    apk: "MIUICompassGlobal.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
