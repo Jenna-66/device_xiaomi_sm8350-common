@@ -190,6 +190,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/camerax-vendor-extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/camerax-vendor-extensions.xml
 
+# Compass
+PRODUCT_PACKAGES += \
+    MIUICompassGlobal
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
