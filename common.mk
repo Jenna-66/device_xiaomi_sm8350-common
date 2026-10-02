@@ -215,6 +215,8 @@ PRODUCT_COPY_FILES += \
 # Dolby
 ifeq ($(TARGET_INCLUDES_DOLBY),true)
 $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
+PRODUCT_PACKAGES += \
+    DolbyAtmos
 endif
 
 ifeq ($(TARGET_INCLUDES_DolbyVision),true)
