@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LineageSDKOverlaySM8350",
+    name: "SDKOverlaySM8350",
     product_specific: true,
 }
